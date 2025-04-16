@@ -21,7 +21,7 @@ try:
     image = Image.new('1', (w, h), color = 255)
     draw = ImageDraw.Draw(image)
 
-    kitty = Image.open('pic/my_photo.bmp')
+    kitty = Image.open('my_img.bmp')
 
     image.paste(kitty, (0, 0), kitty)
 
